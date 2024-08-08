@@ -11,10 +11,10 @@
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(SKIP_POLLY_ANALYZERS)' == '' ">
-    <RunAnalyzers>true</RunAnalyzers>
-    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
-    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <RunAnalyzers>false</RunAnalyzers>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest</AnalysisLevel>
-    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
   </PropertyGroup>
 </Project>

@@ -2,7 +2,9 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;netstandard2.0;net472;net462</TargetFrameworks>
-    <AssemblyTitle>Polly</AssemblyTitle>
+    <AssemblyTitle>PollyCqd</AssemblyTitle>
+    <AssemblyName>PollyCqd</AssemblyName>
+    <PackageId>PollyCqd</PackageId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <ProjectType>Library</ProjectType>
     <MutationScore>70</MutationScore>
@@ -16,11 +18,13 @@
   <PropertyGroup>
     <Description>Polly is a .NET resilience and transient-fault-handling library that allows developers to express resilience and transient fault handling policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.</Description>
     <PackageTags>Polly Exception Handling Resilience Transient Fault Policy Circuit Breaker CircuitBreaker Retry Wait Cache Cache-aside Bulkhead Fallback Timeout Throttle</PackageTags>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    <EnableNETAnalyzers>False</EnableNETAnalyzers>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <EnforceCodeStyleInBuild>False</EnforceCodeStyleInBuild>
+    <AnalysisLevel>none</AnalysisLevel>
+    <IncludeSymbols>False</IncludeSymbols>
   </PropertyGroup>
-
-  <ItemGroup>
-    <InternalsVisibleToProject Include="Polly.Specs" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Polly.Core\Polly.Core.csproj" />

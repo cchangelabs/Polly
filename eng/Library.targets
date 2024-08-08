@@ -13,8 +13,7 @@
   </PropertyGroup>
 
   <PropertyGroup Label="NuGet package validation">
-    <EnablePackageValidation Condition="'$(EnablePackageValidation)' == ''">true</EnablePackageValidation>
-    <PackageValidationBaselineVersion Condition="'$(PackageValidationBaselineVersion)' == ''">8.2.0</PackageValidationBaselineVersion>
+    <EnablePackageValidation Condition="'$(EnablePackageValidation)' == ''">false</EnablePackageValidation>
   </PropertyGroup>
 
   <PropertyGroup Label="SourceLink">

@@ -22,7 +22,6 @@
     <Using Include="Polly.Utils" />
     <Compile Include="..\Polly.Core\Utils\ExceptionUtilities.cs" Link="utils\ExceptionUtilities.cs" />
     <Compile Include="..\Polly.Core\Utils\Guard.cs" Link="Utils\Guard.cs" />
-    <InternalsVisibleToProject Include="Polly.RateLimiting.Tests" />
   </ItemGroup>
 
   <ItemGroup>

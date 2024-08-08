@@ -2,7 +2,9 @@
 
   <PropertyGroup>
     <TargetFrameworks>net8.0;net6.0;netstandard2.0;net472;net462</TargetFrameworks>
-    <AssemblyTitle>Polly.Core</AssemblyTitle>
+    <AssemblyTitle>PollyCqd.Core</AssemblyTitle>
+    <AssemblyName>PollyCqd.Core</AssemblyName>
+    <PackageId>PollyCqd.Core</PackageId>
     <RootNamespace>Polly</RootNamespace>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -22,10 +24,6 @@
 
   <ItemGroup>
     <Using Include="Polly.Utils" />
-    <InternalsVisibleToProject Include="Polly.Core.Benchmarks" />
-    <InternalsVisibleToProject Include="Polly.Core.Tests" />
-    <InternalsVisibleToProject Include="Polly.Testing" />
-    <InternalsVisibleToProject Include="Polly.TestUtils" />
   </ItemGroup>
 
   <ItemGroup>

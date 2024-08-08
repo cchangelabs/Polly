@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <Using Remove="System.Net.Http" />
-    <InternalsVisibleToProject Include="Polly.Extensions.Tests" />
   </ItemGroup>
 
   <ItemGroup>
