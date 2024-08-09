@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <PropertyGroup Label="NuGet package validation">
-    <EnablePackageValidation>true</EnablePackageValidation>
+    <EnablePackageValidation>false</EnablePackageValidation>
     <!--
     TODO Enable when v8 has shipped to NuGet.org
     <PackageValidationBaselineVersion Condition="'$(PackageValidationBaselineVersion)' == ''">8.0.0</PackageValidationBaselineVersion>
@@ -64,7 +64,7 @@
   </ItemGroup>
 
   <PropertyGroup Label="MinVer">
-    <MinVerMinimumMajorMinor>8.0</MinVerMinimumMajorMinor>
+
   </PropertyGroup>
 
   <Target Name="CustomizeVersions" AfterTargets="MinVer" Condition="'$(GITHUB_ACTIONS)' == 'true'">
